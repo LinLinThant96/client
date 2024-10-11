@@ -1,0 +1,99 @@
+.fancy-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f0fff4;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #9CCC65;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+  
+.form-control:focus {
+    border-color: #8BC34A;
+    outline: none;
+    box-shadow: 0 0 8px rgba(139, 195, 74, 0.5);
+}
+  
+.fancy-btn {
+    background-color: #a5ee63;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+  
+.fancy-btn:hover {
+    background-color: #7CB342;
+    box-shadow: 0 4px 10px rgba(139, 195, 74, 0.5);
+}
+  
+.fancy-btn:disabled {
+    background-color: #A5D6A7;
+    cursor: not-allowed;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fancy-skip-btn {
+    background-color: #FF7043; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fancy-skip-btn:hover {
+    background-color: #F4511E; 
+}
+
+.fancy-skip-btn {
+    background-color: #FF7043; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%; 
+}
+
+.fancy-skip-btn:hover {
+    background-color: #F4511E; 
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+

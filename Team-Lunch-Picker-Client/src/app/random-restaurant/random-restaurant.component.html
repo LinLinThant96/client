@@ -1,0 +1,20 @@
+<div class="container mt-4">
+    <h2 class="text-center">Random Restaurant Generator</h2>
+  
+    <div class="text-center mb-4">
+      <button (click)="generateRandomRestaurant()" class="btn fancy-gen-btn">Generate Random Restaurant</button>
+    </div>
+    
+    <div *ngIf="randomRestaurant" class="random-restaurant-display">
+      <h3>{{ randomRestaurant }}</h3>
+    </div>
+  
+    <h4 class="mt-4" *ngIf="restaurants.length > 0">All Submitted Restaurants</h4>
+    <ul class="list-group">
+      <li *ngFor="let restaurant of restaurants" class="list-group-item">
+        <i class="fas fa-utensils green-icon"></i>
+        {{ restaurant.name }}
+      </li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,22 @@
+<div class="fancy-container">
+    <h2>Submit a Restaurant</h2>
+    <form (ngSubmit)="submitRestaurant()" #restaurantForm="ngForm">
+      <div class="form-group">
+        <input 
+          type="text" 
+          id="restaurantName" 
+          class="form-control" 
+          name="restaurantName" 
+          placeholder="Enter restaurant name" 
+          [(ngModel)]="restaurant.name"  
+          required>
+      </div>
+      <button type="submit" class="btn fancy-btn" [disabled]="restaurantForm.invalid">
+        <i class="fas fa-paper-plane"></i> Submit
+      </button>
+      <button type="button" class="btn fancy-skip-btn mt-3" (click)="goToRandomPage()">
+        <i class="fas fa-forward"></i> Skip
+      </button>
+    </form>
+  </div>
+  

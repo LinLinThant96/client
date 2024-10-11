@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    background-color: #f0fff4;
+}
+
+.random-restaurant-display {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #e7f9e7;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #2e7d32;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.green-icon {
+    color: #78CC6D;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.fancy-gen-btn {
+    background-color: #8adf3e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 50%;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(139, 195, 74, 0.5);
+}
+
+.fancy-gen-btn:hover {
+    background-color: #7CB342;
+    box-shadow: 0 6px 14px rgba(139, 195, 74, 0.5);
+}
